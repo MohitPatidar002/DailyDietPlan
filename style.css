@@ -8,18 +8,13 @@ html{
     scroll-behavior: smooth;
 }
 
-#container{
-    background:rgba(0, 0, 0,0.3) url("./images/daily-diet-1.png");
+.image img{
     background-size: cover;
-    background-blend-mode: darken;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
-.overlay{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
-    height: 100vh;
-}
 .header{
     display: flex;
     align-items: center;
@@ -113,7 +108,7 @@ li a:hover{
 
 input{
     border: none;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid rgb(93, 90, 90);
     font-size: 1.4rem;
 }
 
@@ -216,6 +211,9 @@ table tr td p{
     width: 130px;
     padding: 4px 10px;
     margin: 20px;
+    border: none;
+    font-size: 0.9rem;
+    box-shadow: 5px 5px 5px 1px #888888;
 }
 
 .icon{
@@ -280,6 +278,10 @@ th, td {
 .input-weight{
     margin-left: 63px;
 }
+
+.t3{
+    height: 28px;
+}
 /* ------- Media Queries -------------*/
 
 @media only screen and (max-width:1044px){
@@ -294,7 +296,8 @@ th, td {
     }
     .logo{
         display: block;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+        margin-left: 22px;
     }
    
 
@@ -368,15 +371,6 @@ th, td {
 
     .Products{
         margin: 8px;
-    }
-
-    #container{
-        height: 80vh;
-        background-size: cover;
-    }
-
-    .overlay{
-        height: 80vh;
     }
 
     .prod-table-data{
