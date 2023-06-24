@@ -77,6 +77,12 @@ function toggle1() {
   document.getElementById("Fruits_table").style.display = "none";
   document.getElementById("non-veg-table").style.display = "none";
   document.getElementById("vegetable-table").style.display = "none";
+
+  document.getElementById("active").style.backgroundColor="rgb(170, 170, 221)";
+  document.getElementById("active1").style.backgroundColor="buttonface";
+  document.getElementById("active2").style.backgroundColor="buttonface";
+  document.getElementById("active3").style.backgroundColor="buttonface";
+  document.getElementById("active4").style.backgroundColor="buttonface";
 }
 
 function toggle2() {
@@ -85,6 +91,12 @@ function toggle2() {
   document.getElementById("Fruits_table").style.display = "none";
   document.getElementById("non-veg-table").style.display = "none";
   document.getElementById("vegetable-table").style.display = "none";
+
+  document.getElementById("active").style.backgroundColor="buttonface";
+  document.getElementById("active1").style.backgroundColor="rgb(170, 170, 221)";
+  document.getElementById("active2").style.backgroundColor="buttonface";
+  document.getElementById("active3").style.backgroundColor="buttonface";
+  document.getElementById("active4").style.backgroundColor="buttonface";
 }
 
 function toggle3() {
@@ -93,6 +105,12 @@ function toggle3() {
   document.getElementById("Fruits_table").style.display = "flex";
   document.getElementById("non-veg-table").style.display = "none";
   document.getElementById("vegetable-table").style.display = "none";
+
+  document.getElementById("active").style.backgroundColor="buttonface";
+  document.getElementById("active1").style.backgroundColor="buttonface";
+  document.getElementById("active2").style.backgroundColor="rgb(170, 170, 221)";
+  document.getElementById("active3").style.backgroundColor="buttonface";
+  document.getElementById("active4").style.backgroundColor="buttonface";
 }
 
 function toggle4() {
@@ -101,6 +119,12 @@ function toggle4() {
   document.getElementById("Fruits_table").style.display = "none";
   document.getElementById("non-veg-table").style.display = "flex";
   document.getElementById("vegetable-table").style.display = "none";
+
+  document.getElementById("active").style.backgroundColor="buttonface";
+  document.getElementById("active1").style.backgroundColor="buttonface)";
+  document.getElementById("active2").style.backgroundColor="buttonface";
+  document.getElementById("active3").style.backgroundColor="rgb(170, 170, 221)";
+  document.getElementById("active4").style.backgroundColor="buttonface";
 }
 
 function toggle5() {
@@ -109,6 +133,12 @@ function toggle5() {
   document.getElementById("Fruits_table").style.display = "none";
   document.getElementById("non-veg-table").style.display = "none";
   document.getElementById("vegetable-table").style.display = "flex";
+
+  document.getElementById("active").style.backgroundColor="buttonface";
+  document.getElementById("active1").style.backgroundColor="buttonface";
+  document.getElementById("active2").style.backgroundColor="buttonface";
+  document.getElementById("active3").style.backgroundColor="buttonface";
+  document.getElementById("active4").style.backgroundColor="rgb(170, 170, 221)";
 }
 
 
