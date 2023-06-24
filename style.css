@@ -324,7 +324,9 @@ th, td {
         height: 72px;
         background-color: black;
     }
-
+   .image img{
+        margin-top: 70px;
+    }
     .v-class{
         opacity: 0;
     }
