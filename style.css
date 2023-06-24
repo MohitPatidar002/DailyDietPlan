@@ -270,6 +270,14 @@ th, td {
 .bmi-btn{
     margin-top: 25px;
 }
+
+#active{
+    background-color: rgb(170, 170, 221);
+}
+
+.input-weight{
+    margin-left: 63px;
+}
 /* ------- Media Queries -------------*/
 
 @media only screen and (max-width:1044px){
@@ -375,6 +383,10 @@ th, td {
       
     th, td {
         padding: 8;
+    }
+
+    .input-weight{
+        margin-left: 0px;
     }
     
 }
