@@ -45,16 +45,13 @@
           <label for="height">Height [cm] :</label>
           <input type="text" id="height" name="height" placeholder="Please Enter Height" />
         </div>
-        <div class="inputs">
+        <div class="inputs input-weight">
           <label for="weight">Weight [kg] :</label>
           <input type="text" id="weight" name="weight" placeholder="Please Enter Weight" />
           <button class="btn bmi-btn" onclick="BMI()">Calculate</button>
           <p id="result"></p>
         </div>
-        
-          
-        
-       
+
       </div>
 
       <div class="sec1-right">
@@ -85,7 +82,7 @@
           </div>
           <div class="inputs">
             <label for="">Gender :</label>
-            <input type="radio" id="male" name="gender" value="0" checked=""/>
+            <input type="radio" id="male" name="gender" value="0" checked="" />
             <label for="male">Male</label>
             <input type="radio" id="female" name="gender" value="1" />
             <label for="female">Female</label>
@@ -148,22 +145,22 @@
       </table>
     </div>
   </section>
-<hr>
+  <hr>
   <section class="sec4" id="section4">
     <h2>Calorie Intake Chart <sub>&nbsp;(per 100gm)</sub></h2>
 
     <div class="btns">
-      <button class="Products" onclick="toggle1()" id="dairy-prod">Dairy Products</button>
-      <button class="Products" onclick="toggle2()">Dry Fruits</button>
-      <button class="Products" onclick="toggle3()">Fruits</button>
-      <button class="Products" onclick="toggle4()">Non-Veg Foods</button>
-      <button class="Products" onclick="toggle5()">Vegetables</button>
+      <button class="Products " onclick="toggle1()" id="active">Dairy Products</button>
+      <button class="Products active1" id="active1" onclick="toggle2()">Dry Fruits</button>
+      <button class="Products active2" id="active2" onclick="toggle3()">Fruits</button>
+      <button class="Products active3" id="active3" onclick="toggle4()">Non-Veg Foods</button>
+      <button class="Products active4" id="active4" onclick="toggle5()">Vegetables</button>
     </div>
 
     <div class="product-table">
       <div class="dairy-prod-list" style="overflow-x:auto;">
         <table id="dairyproduct-table" class="prod-table-data">
-          
+
           <tr>
             <th>S.No</th>
             <th>Protein source</th>
@@ -703,7 +700,7 @@
       </div>
 
       <div id="Vegetable-list" style="overflow-x:auto;">
-        <table id="vegetable-table" class="prod-table-data" style="display: none";>
+        <table id="vegetable-table" class="prod-table-data" style="display: none" ;>
           <tr>
             <th>S.No</th>
             <th>Food</th>
