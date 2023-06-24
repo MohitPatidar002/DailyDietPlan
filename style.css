@@ -247,6 +247,8 @@ th, td {
 #footer{
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: black;
     color: white;
     padding: 12px 0px;
