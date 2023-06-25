@@ -45,6 +45,10 @@ li{
     display: flex;
 }
 
+.choose{
+    display: flex;
+}
+
 li a{
     text-decoration: none;
     padding: 5px 15px;
