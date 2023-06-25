@@ -34,12 +34,16 @@
       </header>
     </div>
     <div class="image">
-      <img src="./images/daily-diet-1.jpg" alt="Background image">
+      <img src="./images/daily-diet-1.jpg" alt="">
     </div>
   <section class="sec1" id="section1">
     <h1 class="bmi-heading">BMI Calculator</h1>
 
     <div class="sec1-inner">
+      <div class="para-bmi" >
+        <p>This BMI calculator calculate your body mass index and show the result. If your bmi is less than 18.5 then you need to gain weight. If your bmi is between 18.5 to 24.9. it means you are fit and if bmi is greater to 25 then you need to loss your weight.</p>
+      </div>
+
       <div class="sec1-left">
         <div class="inputs">
           <label for="height">Height [cm] :</label>
@@ -51,12 +55,12 @@
           <button class="btn bmi-btn" onclick="BMI()">Calculate</button>
           <p id="result"></p>
         </div>
-
       </div>
 
       <div class="sec1-right">
         <img src="./images/bmi.jpg" alt="BMI Image" />
       </div>
+
     </div>
   </section>
   <hr>
@@ -100,7 +104,7 @@
           </div>
 
           <div class="inputs">
-            <label class="caption" for="gain_loss">Activity:</label>
+            <label class="caption" for="gain_loss">What You Want:</label>
             <select class="t3" value="1.2" name="gain_loss" id="gain_loss">
               <option id="loss" value="1">Loss</option>
               <option id="gain" value="2">Gain</option>
@@ -110,41 +114,45 @@
           <button class="btn" id="btn-calculate" onclick="calculate()">Calculate</button>
         </div>
       </div>
+      <section class="sec3" id="section3">
+        <h2 id="h2-heading">Required kcal For Weight- <span id="span"></span></h2>
+    
+        <div class="calorie-tabel">
+          <table class="calorie-tab-data">
+            <tr>
+              <td>Maintain Weight</td>
+              <td id="maintain">0 kcal/day</td>
+            </tr>
+    
+            <tr>
+              <td>Mild Weight <span id="span1"></span>
+                <p style='color:#888'>(0.25kg/week)</p>
+              </td>
+              <td id="mild">0 kcal/day</td>
+            </tr>
+    
+            <tr>
+              <td>Medium Weight <span id="span2"></span>
+                <p style='color:#888'>(0.50kg/week)</p>
+              </td>
+              <td id="medium">0 kcal/day</td>
+            </tr>
+            <tr>
+              <td>Fast Weight <span id="span3"></span>
+                <p style='color:#888'>(1kg/week)</p>
+              </td>
+              <td id="fast">0 kcal/day</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <div class="para-calorie" >
+        <p>This calorie calculator tells us how many calories our body needs daily and it also helps to weight gain or weight loss. Below calorie intake chart shows the how many calories present in perticular item which makes it easier for us to takes calories.</p>
+      </div>
 
   </section>
 
-  <section class="sec3" id="section3">
-    <h2 id="h2-heading">Required kcal For Weight- <span id="span"></span></h2>
-
-    <div class="calorie-tabel">
-      <table class="calorie-tab-data">
-        <tr>
-          <td>Maintain Weight</td>
-          <td id="maintain">0 kcal/day</td>
-        </tr>
-
-        <tr>
-          <td>Mild Weight <span id="span1"></span>
-            <p style='color:#888'>(0.25kg/week)</p>
-          </td>
-          <td id="mild">0 kcal/day</td>
-        </tr>
-
-        <tr>
-          <td>Medium Weight <span id="span2"></span>
-            <p style='color:#888'>(0.50kg/week)</p>
-          </td>
-          <td id="medium">0 kcal/day</td>
-        </tr>
-        <tr>
-          <td>Fast Weight <span id="span3"></span>
-            <p style='color:#888'>(1kg/week)</p>
-          </td>
-          <td id="fast">0 kcal/day</td>
-        </tr>
-      </table>
-    </div>
-  </section>
+  
   <hr>
   <section class="sec4" id="section4">
     <h2>Calorie Intake Chart (per 100gm)</h2>
