@@ -399,9 +399,12 @@ th, td {
         }
     }
 
-    @media only screen and (max-width:365px){
+    @media only screen and (max-width:370px){
         #h2-heading{
             font-size: 20px;
+        }
+         .calorie-tabel table tr td {
+            padding: 8px 30px;
         }
     }
 
