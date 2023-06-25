@@ -404,10 +404,9 @@ th, td {
         }
     }
 
-    @media only screen and (max-width:325px){
-        #span{
-           width: 8%;
-        }
+    @media only screen and (max-width:360px){
+        #h2-heading{
+            font-size:20px;
     }
     
 }
