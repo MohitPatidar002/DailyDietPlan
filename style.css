@@ -177,7 +177,7 @@ input{
 h2{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     text-align: center;
 }
 
@@ -395,18 +395,15 @@ th, td {
 
     @media only screen and (max-width:480px){
         .image img{
-            height: 230px;
-        }
-    }
-     @media only screen and (max-width:480px){
-        .image img{
             height: 330px;
         }
     }
 
-    @media only screen and (max-width:360px){
+    @media only screen and (max-width:365px){
         #h2-heading{
-            font-size:20px;
+            font-size: 20px;
+        }
     }
+
     
 }
