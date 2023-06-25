@@ -392,7 +392,7 @@ th, td {
     .input-weight{
         margin-left: 0px;
     }
-
+}
     @media only screen and (max-width:480px){
         .image img{
             height: 330px;
@@ -406,4 +406,4 @@ th, td {
     }
 
     
-}
+
