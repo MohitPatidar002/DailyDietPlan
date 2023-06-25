@@ -334,7 +334,7 @@ th, td {
     }
 
     .v-class{
-        opacity: 0;
+        display:none;
     }
 
     .sec1-inner{
